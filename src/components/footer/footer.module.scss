@@ -1,0 +1,36 @@
+.footer {
+    height: 500px;
+    background-color: #6d6d6d;
+    padding: 50px 0;
+
+    .footeritems {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1500px;
+        margin: auto;
+        .footerlogo {
+
+            h1 {
+                font-size: 30px;
+                font-weight: 800;
+                color: white;
+            }
+        }
+
+        .footerlist {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            p {
+                font-weight: 700;
+                font-size: 25px;
+            }
+
+            a {
+                display: block;
+            }
+        }
+
+    }
+}
