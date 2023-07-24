@@ -250,7 +250,6 @@
 
                 &:nth-child(even){
                     flex-direction: row-reverse;
-                    width: 100vw;
 
                     @include mobile {
                         flex-direction: column;
