@@ -1,4 +1,11 @@
+@mixin mobile {
+    @media screen and (max-width:480px) {
+        @content;
+    }
+}
+
 .main {
+
     .section1 {
         background-color: #fbfdff;
         background: linear-gradient(rgba(238, 238, 238, 0.691), rgba(198, 198, 198, 0.554))
@@ -6,6 +13,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 0;
+
+        @include mobile {
+            width: 100vw;
+        }
     
         .circle {
             background-color: white;
@@ -19,6 +30,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @include mobile {
+                // display: none;
+                top:0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: 0%;
+            }
     
     
             div {
@@ -35,6 +55,11 @@
                     margin-bottom: 10px;
                     font-size: 70px;
                     font-weight: 900;
+
+                    @include mobile {
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
                 }
     
                 p {
@@ -42,6 +67,10 @@
                     font-size: 30px;
                     font-weight: 300;
                     color: #767676;
+
+                    @include mobile {
+                        font-size: 20px;
+                    }
                 }
     
                 a {               
@@ -54,6 +83,12 @@
                     font-size: 25px;
                     margin-top: 30px;
                     font-weight: 400;
+                    
+                    @include mobile {
+                        font-size: 20px;
+                    }
+
+                    
     
                     &:hover {
                         background-color: #5ca4bc;
@@ -66,12 +101,24 @@
     .section2 {
         background-color: rgb(248, 255, 255);
         padding: 200px 0;
+
+        @include mobile {
+            padding: 200px 20px;
+        }
+
+        @include mobile {
+            width: 100vw;
+        }
         .items {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             max-width: 1500px;
             margin: 0 auto;
             gap: 25px;
+
+            @include mobile {
+                grid-template-columns: 1fr;
+            }
 
             .box {
                 background-color: white;
@@ -125,6 +172,10 @@
         background-color: #63a1b6;
         padding: 100px 0;
 
+        @include mobile {
+            padding: 100px 20px;
+        }
+
         h2 {
             font-size: 50px;
             text-align: center;
@@ -137,6 +188,10 @@
             grid-template-columns: 1fr 1fr;
             column-gap: 30px;
             row-gap: 50px;
+
+            @include mobile {
+                grid-template-columns: 1fr;
+            }
 
             .box3 {
                 background-color: white;
@@ -174,6 +229,12 @@
     .section4 {
         padding: 100px 0;
         transition: 0.9s;
+
+        @include mobile {
+            padding: 100px 20px;
+        }
+
+        
         .items4 {
             max-width: 1500px;
             margin: auto;
@@ -183,12 +244,25 @@
                 gap: 50px;
                 margin-bottom: 200px;
 
+                @include mobile {
+                    flex-direction: column;
+                }
+
                 &:nth-child(even){
                     flex-direction: row-reverse;
+                    width: 100vw;
+
+                    @include mobile {
+                        flex-direction: column;
+                    }
                 }
 
                 .img4 {
                     width: 30%;
+
+                    @include mobile {
+                        width: 100%;
+                    }
 
                     img {
                         width: 100%;
@@ -216,4 +290,5 @@
     }
 
 }
+
 

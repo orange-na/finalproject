@@ -36,7 +36,7 @@ export function Contents() {
                 <div className={css.items4}>
                     <div className={css.box4}>
                         <div className={css.img4}>
-                            <img src="img/rankup.png" alt="" />
+                            <img src="img/rankup.png" alt="Item Image 1" />
                         </div>
                         <div className={css.desc4}>
                             <h3>
@@ -49,7 +49,7 @@ export function Contents() {
                     </div>
                     <div className={css.box4}>
                         <div className={css.img4}>
-                            <img src="img/discuss.png" alt="" />
+                            <img src="img/discuss.png" alt="Item Image 2" />
                         </div>
                         <div className={css.desc4}>
                             <h3>
@@ -62,7 +62,7 @@ export function Contents() {
                     </div>
                     <div className={css.box4}>
                         <div className={css.img4}>
-                            <img src="img/safety.png" alt="" />
+                            <img src="img/safety.png" alt="Item Image 3" />
                         </div>
                         <div className={css.desc4}>
                             <h3>
@@ -75,7 +75,7 @@ export function Contents() {
                     </div>
                     <div className={css.box4}>
                         <div className={css.img4}>
-                            <img src="img/saleup.png" alt="" />
+                            <img src="img/saleup.png" alt="Item Image 4" />
                         </div>
                         <div className={css.desc4}>
                             <h3>
@@ -95,7 +95,7 @@ export function Contents() {
             <section className={css.section2}>
                 <div className={css.items}>
                     <div className={css.box}>
-                        <img src="img/classroom.jpg" alt="" />
+                        <img src="img/classroom.jpg" alt="Box Image 1" />
                         <h2>title title</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In repellendus nemo obcaecati alias ipsam consequatur pariatur sequi at! Hic, voluptates blanditiis soluta minus autem laudantium quis. Tempora unde iste a.
@@ -103,7 +103,7 @@ export function Contents() {
                         <Link href=''>Read More</Link>
                     </div>
                     <div className={css.box}>
-                        <img src="img/classroom.jpg" alt="" />
+                        <img src="img/classroom.jpg" alt="Box Image 2" />
                         <h2>title title</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores labore ad praesentium enim voluptatibus quos illo et laboriosam vel quo repudiandae voluptates, voluptatem harum dicta dolorem aperiam mollitia eligendi!
@@ -111,7 +111,7 @@ export function Contents() {
                         <Link href=''>Read More</Link>
                     </div>
                     <div className={css.box}>
-                        <img src="img/classroom.jpg" alt="" />
+                        <img src="img/classroom.jpg" alt="Box Image 3" />
                         <h2>title title</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores labore ad praesentium enim voluptatibus quos illo et laboriosam vel quo repudiandae voluptates, voluptatem harum dicta dolorem aperiam mollitia eligendi!
@@ -119,7 +119,7 @@ export function Contents() {
                         <Link href=''>Read More</Link>
                     </div>
                     <div className={css.box}>
-                        <img src="img/classroom.jpg" alt="" />
+                        <img src="img/classroom.jpg" alt="Box Image 4" />
                         <h2>title title</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores labore ad praesentium enim voluptatibus quos illo et laboriosam vel quo repudiandae voluptates, voluptatem harum dicta dolorem aperiam mollitia eligendi!
@@ -137,7 +137,7 @@ export function Contents() {
                 <div className={css.items3}>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -148,7 +148,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -159,7 +159,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -170,7 +170,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -181,7 +181,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -192,7 +192,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -203,7 +203,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>
@@ -214,7 +214,7 @@ export function Contents() {
                     </div>
                     <div className={css.box3}>
                         <div className={css.profile}>
-                            <img src="img/avatar.jpg" alt="" />
+                            <img src="img/avatar.jpg" alt="Avator" />
                             <div className={css.account}>
                                 <h3>John Micele</h3>
                                 <p>Product Manager</p>

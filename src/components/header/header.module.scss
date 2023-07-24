@@ -1,3 +1,9 @@
+@mixin mobile {
+    @media screen and (max-width:480px) {
+        @content;
+    }
+}
+
 .header {
     background-color: white;
     border-bottom: solid 1px #d9d9d9;
@@ -9,6 +15,7 @@
     1.9px 1.6px 2.3px -9px rgba(0, 0, 0, 0.12),
     14px 12px 18px -9px rgba(0, 0, 0, 0.23);
 
+
     div {
         display: flex;
         align-items: center;
@@ -16,6 +23,10 @@
         height: 110px;
         margin: auto;
         max-width: 1500px;
+
+        @include mobile {
+            max-width: 400px;
+        }
 
         h1 {
             a {
@@ -27,6 +38,10 @@
         ul {
             display: flex;
             align-items: center;
+            
+            @include mobile {
+                display: none;
+            }
             
             li {
                 padding: 0 30px;
@@ -44,6 +59,10 @@
                 transition: all 0.5s;
                 cursor: pointer;
 
+                @include mobile {
+                    display: none;
+                }
+
                 a {
                     color: white;
                 }
@@ -53,5 +72,16 @@
                 }
             }
         }
+        
+        button {
+            display: none;
+            font-size: 40px;
+            
+            @include mobile {
+                display: block;
+            }
+        }
     }
+
 }
+

@@ -1,13 +1,28 @@
+@mixin mobile {
+    @media screen and (max-width:480px) {
+        @content;
+    }
+}
+
 .footer {
     height: 500px;
     background-color: #6d6d6d;
     padding: 50px 0;
+
+    @include mobile {
+        height: 100%;
+    }
 
     .footeritems {
         display: flex;
         justify-content: space-between;
         max-width: 1500px;
         margin: auto;
+
+        @include mobile {
+            flex-direction: column;
+            text-align: center;
+        }
         .footerlogo {
 
             h1 {
@@ -34,3 +49,4 @@
 
     }
 }
+

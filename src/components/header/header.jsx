@@ -14,6 +14,7 @@ export function Header() {
                     <li><Link href='/login'>Login</Link></li>
                     <li className={css.freetrial}><Link href='/free'>Start for free</Link></li>
                 </ul>
+                <button>=</button>
             </div>
         </header>
     )
